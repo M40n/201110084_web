@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Siswa</title>
+</head>
+<body >
+    <style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		.navbar {
+			background-color: #4c0ce2;
+			overflow: hidden;
+		}
+		.navbar a {
+			float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+		.navbar a:hover {
+			background-color: #ddd;
+			color: #4c0ce2;
+		}
+		.active {
+			background-color: #4c0ce2;
+			color: #fff;
+		}
+	</style>
+    
+        <div class="navbar">
+            
+            <a href="./Profile sekolah.html"><b>PROFILE SEKOLAH</b></a>
+            <a href="./Prestasi.html"><b>PRESTASI</b></a>
+            <a href="./Berita.html"><b>BERITA</b></a>
+            <a href="./Ekskul.html"><b>EKSKUL</b></a>
+            <a href="./Karya.html"><b>KARYA</b></a>
+            <a href="./Perpustakaan.html"><b>PERPUSTAKAAN</b></a>
+            <a href="./Alamat dan kontak.html"><b>ALAMAT DAN KONTAK</b></a>
+        </div>
+      </nav>
+
+      <style>
+		body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+		h1 {
+			font-size: 16px;
+			text-align: center;
+		}
+	</style>
+
+      <H1>Selamat Datang </H1>
+      <H1>SD 1 Muhammadiah 1 Krian</H1>
+
+
+      <title>Login Siswa</title>
+	<style>
+		body {
+			background-color: #d1db76;
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			background-color: #91bcd4;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+			margin: 100px auto;
+			max-width: 400px;
+			padding: 20px;
+		}
+		h2 {
+			text-align: center;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+		}
+		label {
+			margin-bottom: 5px;
+		}
+		input[type="text"], input[type="password"] {
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+		input[type="text"]:focus, input[type="password"]:focus {
+			outline: none;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+		}
+		button[type="submit"] {
+			background-color: #4CAF50;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			cursor: pointer;
+			font-size: 16px;
+			padding: 10px;
+			margin-top: 10px;
+			transition: all 0.2s;
+		}
+		button[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Login Siswa</h2>
+		<form action="/login" method="POST">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+
+			<button type="submit">Login</button>
+
+            <button type="submit">Login Guru</button>
+		</form>
+	</div>
+    
+
+</body>
+</html>
